@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fast-Fingers</title>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./Styles/game.css">
+</head>
+<body>
+    <header>
+        <h1>Fast Fingers</h1>
+    </header>
+    <main class="main-content">
+        <h3>Type like never before</h3>
+        <section class="game-area">
+            <div class="text-display" id="text-display"></div>
+            <div class="text-input">
+                <label for="user-input"></label>
+                <input type="text" id="user-input" placeholder="Start typing here ...">
+            </div>
+            <div class="level">Level: <span id="level">1</span></div>
+        </section>
+        <section class="game-stats">
+            <div class="timer">Time:<span id="timer">0.00</span></div>
+            <div class="score"> Score: <span id="score">0</span></div>
+            <div class="accuracy"> Accuracy: <span id="accuracy">0%</span> </div>
+            <div class="username-display"></div>
+        </section>
+        <section class="history-section">
+            <h3>Typing history</h3>
+            <button id="show-history-btn">Show History</button>
+            <ul id="history-list"></ul>
+        </section>
+    </main>
+    <footer>
+        <p><a href="./index.html">Back to Homepage</a></p>
+    </footer>
+    <script src="./src/Script.js"></script>
+</body>
+</html>

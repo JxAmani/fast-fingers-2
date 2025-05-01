@@ -1,0 +1,67 @@
+body{
+    background-color:lightgray;
+    font-family: sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+header{
+    background-color: navy;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.main-content{
+ border: 1px solid black ;
+ border-radius: 5px;
+ background-color: dimgray;
+  justify-content: center;
+ align-content: center;
+ text-align: center;
+}
+.game-area{
+    background-color: white;
+    border: 1px solid black;
+    padding: 30px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    width: 80%;
+    height: 200px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 40px;
+}
+.level, .timer,.score, .accuracy{
+    font-size: large;
+    padding: 4px;
+}
+.text-display{
+    font-size: large;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+#user-input{
+    width: 96%;
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: large;
+}
+.game-stats{
+    display: flex;
+    gap: 27px;
+    margin-bottom: 10px;
+}
+footer a{
+    margin-left: 60px;
+    margin-top: 5px;
+    padding: 20px;
+    text-decoration: none;
+    font-size: large;
+    color: darkviolet;
+}
+.footer a :hover{
+    text-decoration: underline;
+    cursor: pointer;
+}  

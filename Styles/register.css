@@ -1,0 +1,55 @@
+body{
+    font-family: sans-serif;
+    background-image: url(https://images.unsplash.com/photo-1513807762437-8c8dee6b3776?q=80&w=2127&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+}
+.registration-container{
+    border: 3px solid black;
+    border-radius: 8px;
+    background-image: url(https://images.unsplash.com/photo-1612287230202-1ff1d85d1bdf?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-color: white;
+     background-size: cover;
+    width: 80%;
+    height: 350px;
+    padding: 50px;
+}
+h2{
+    color: dodgerblue;
+    text-align: center;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+label{
+    display: block;
+    margin-bottom: 5px;
+}
+input[type="text"],input[type="email"],input[type="password"]{
+    width: 37%;
+    margin-bottom: 10px;
+    padding: 6px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+button[type="submit"]{
+    background-color: dodgerblue;
+    color: white;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: x-large;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+button[type="submit"] :hover{
+    cursor: pointer;
+} 
+a{
+    font-weight: bold;
+    color: dodgerblue;
+    text-decoration: none;
+}
+a :hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
