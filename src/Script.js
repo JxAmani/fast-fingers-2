@@ -69,7 +69,7 @@ document.addEventListener(`DOMContentLoaded`, () => {
       let correct = 0;
       for (let i = 0; i < typedText.length; i++) {//This is a lop that is initialized by i=0 which is first word
         if (typedText[i] === currentWord[i]) {//i++ is so that the words displayed can move to the next one
-          correct++;
+          correct++;//this for accuracy
         }
       }
       correctChars += correct;
