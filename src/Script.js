@@ -126,7 +126,7 @@ document.addEventListener(`DOMContentLoaded`, () => {
       }
     }
   
-    // This function updates the timer display.  It is called by the
+    // This function updates the timer display. which is made possible by
     // setInterval() function every 10 milliseconds. so that evey 10 ms the timer is updated to show current time
     function updateTimer() {
       if (startTime) {
@@ -141,7 +141,7 @@ document.addEventListener(`DOMContentLoaded`, () => {
       displayUsername(); // Display the username
       startGame();     // Start the game
   
-      userInput.addEventListener('input', updateGame); // Listen for user input
+      userInput.addEventListener('input', updateGame); 
   
       if (showHistoryBtn && historyList) {
         showHistoryBtn.addEventListener('click', function () {
