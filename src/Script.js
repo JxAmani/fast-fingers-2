@@ -99,7 +99,7 @@ document.addEventListener(`DOMContentLoaded`, () => {
     // updates the display, and resets the game stats.
     function endGame() {
       if (startTime) {
-        const endTime = new Date().getTime();      // Record the end time
+        const endTime = new Date().getTime();      // Record the end time-- new date= moment in time  get time= in miliseconds
         const timeTaken = (endTime - startTime) / 1000; // Calculate time taken in seconds
         const accuracy = totalChars === 0 ? 0 : (correctChars / totalChars) * 100; // Calculate accuracy
         let scoreText = "Good Trial";
