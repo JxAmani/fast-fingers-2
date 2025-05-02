@@ -30,7 +30,7 @@ document.addEventListener(`DOMContentLoaded`, () => {
       }
     }
   
-    // This function displays the word to be typed,  for id(text-dispay)
+    // This function displays the word to be typed for the user to type,  for id(text-dispay)
     // clears the user input  and focuses the input -meaning it will refresh and be ready eliminating need for user to manually refresh then click on bar to type.
     function loadWord() {
       if (textDisplay) {
