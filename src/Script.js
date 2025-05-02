@@ -30,20 +30,19 @@ document.addEventListener(`DOMContentLoaded`, () => {
         }
     }
 
-    // This function loads the current word into the text display,
-    // clears the user input field, and focuses the input field.
+    // This function displays the word to be typed,  for id(text-dispay)
+    // clears the user input  and focuses the input -meaning it will refresh and be ready eliminating need for user to manually refresh then click on bar to type.
     function loadWord() {
         if (textDisplay) {
-            textDisplay.textContent = words[currentWordIndex]; // Display the current word
+            textDisplay.textContent = words[currentWordIndex]; // the words that will be displayed for the user to type whih are stored under the variable words
         }
-        userInput.value = '';       // Clear the input field
-        userInput.focus();         // Focus the input field
+        userInput.value = '';       // Clear the input field. '' empty string
+        userInput.focus();         // Focus the input field-- this to eliminate the need for user to click on tab so as to start typing
     }
 
     // This function starts the game.
     function startGame() {
-        if (!startTime) { // Prevent multiple starts
-            // If the game hasn't started yet...
+        if (!startTime) { // the reason for the !(negative) is because the game hasn't technicaly started and start time is hence undefined
             loadWord();           // Load the first word
             startTime = new Date().getTime(); // Record the start time
             correctChars = 0;    // Reset correct character count
